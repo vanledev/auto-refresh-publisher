@@ -13,9 +13,8 @@ process.setMaxListeners(Infinity);
 
 let browser = await puppeteer.launch({
   headless: false,
-  args: [
-    "--start-maximized"
-  ],
+  defaultViewport: null,
+  args: ["--start-maximized"],
 });
 
 browser = await cookieFn.importCookies(browser, cookiesArr);

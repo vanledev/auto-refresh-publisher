@@ -5,7 +5,9 @@
   "engines": {
     "node": ">=14.17.6"
   },
-  "scripts": {},
+  "scripts": {
+    "start": "node main/run/main.js"
+  },
   "author": "",
   "license": "ISC",
   "description": "",
