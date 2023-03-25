@@ -1,0 +1,28 @@
+
+
+.extension-alert{
+    position:absolute;
+    top: 60vh;
+    left:0;
+    width: 100%;
+    height:130px;
+    background: #24f18cc2;
+    
+}
+.extension-alert-count-wrapper,.extension-alert-count,.extension-alert-text{
+    font: Arial 500 white !important;
+    font-weight: bold; 
+    text-align: center;
+  
+}
+.extension-alert-count-wrapper{
+    font-size: 25px !important;
+}
+.extension-alert-count{
+    font-size: 27px !important;
+
+}
+
+.extension-alert-text{
+font-size: 30px !important;
+}
